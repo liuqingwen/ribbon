@@ -32,7 +32,7 @@ To get ribbon binaries, go to [maven central](http://search.maven.org/#search%7C
 Ribbon comprises of multiple components some of which are used in production internally and some of which were replaced by non-OSS solutions over time.
 This is because Netflix started moving into a more componentized architecture for RPC with a focus on single-responsibility modules. So each Ribbon component gets a different level of attention at this moment.
 
-More specifically, here are the components of Ribbon and their level of attention by our teams:
+More specifically, here are the components of Ribbon and their level of attention by our teams: // 更具体地说，以下是Ribbon的组件以及我们团队对它们的关注程度
 * ribbon-core: **deployed at scale in production**
 * ribbon-eureka: **deployed at scale in production**
 * ribbon-evcache: **not used**
